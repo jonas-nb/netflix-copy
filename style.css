@@ -1,0 +1,992 @@
+header{
+    
+    background-image: url("assets/img/fundo.png");
+    
+    background-size: cover;
+    
+    width: 100%;
+    height: 330px;
+    border-bottom: 4px rgb(39, 39, 39) solid;
+}
+#menu-container{
+display: flex;
+justify-content: space-around;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#menu-container img{
+    width: 100px;
+}
+#menu-container input{
+    background-color: red;
+    border: none;
+    color: white;
+   
+}
+
+/* resolver problemas das bordas dos inputs  */
+
+#info-container{
+    text-align: center;
+    color: white;
+}
+#info-container h1{
+    padding-top: 20px;
+    font-size: 30px;
+    text-shadow: black 1px 1px 1px;
+}
+#info-container p{
+    font-size: 10px;
+}
+#email-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email{
+    width: 200px;
+    border: none;
+    border-right: red;
+}
+#btn{
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+ /* ------------------------------------------------------------------- */
+
+ main{
+     background-color: black;
+ }
+
+ .sessão{
+     
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     padding-top: 20px;
+     border-bottom: 4px rgb(39, 39, 39) solid;
+     
+ }
+ .titles{
+     color: white;
+     font-size: 30px;
+ }
+ .paragra{
+     color: white;
+ }
+ #tv-img{
+     padding-top: 20px;
+ }
+ #cel-info{
+     padding-bottom: 50px;
+ }
+#dev-img{
+    margin-bottom: 50px;
+    
+}
+#ask-container h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-weight: 500;
+}
+#list-container{
+   
+height: 200px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+}
+.cont{
+
+width: 280px;
+height: 35px;
+background-color: rgb(49, 49, 49);
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+transition: border 0.5s linear;
+}
+.cont:hover{
+    border: 1px solid red;
+}
+#read{
+    margin-top: 20px;
+    font-size: 9px;
+    text-align: center;
+    color: white;
+}
+#section4{
+    height: 320px;
+    border-bottom: 4px rgb(39, 39, 39) solid;
+}
+/* -------------------------------------------------------------------- */
+
+footer{
+    background-color: black;
+    height: 300px;
+}
+footer h4{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+footer ul{
+    
+    padding-left: 100px;
+    margin-top: 50px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+footer h3{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+@media (min-width:767px) {
+    header{
+    
+        background-image: url("assets/img/fundo.png");
+        
+        background-size: cover;
+        
+        width: 100%;
+        height: 330px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    #menu-container{
+    
+    display: flex;
+    width: 90%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    }
+    #menu-container img{
+        width: 100px;
+    }
+    #menu-container input{
+        background-color: red;
+        border: none;
+        color: white;
+       
+    }
+    
+
+    
+    #info-container{
+        text-align: center;
+        color: white;
+    }
+    #info-container h1{
+        padding-top: 20px;
+        font-size: 30px;
+        text-shadow: black 1px 1px 1px;
+    }
+    #info-container p{
+        font-size: 10px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #email-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #email{
+        width: 200px;
+        border: none;
+        border-right: red;
+    }
+    #btn{
+        height: 30px;
+        background-color: red;
+        border: none;
+        color: white;
+    }
+     /* ------------------------------------------------------------------- */
+    
+     main{
+         background-color: black;
+     }
+    
+     .sessão{
+         
+         display: flex;
+         flex-direction: column;
+         padding: 20px;
+         padding-top: 20px;
+         border-bottom: 4px rgb(39, 39, 39) solid;
+         
+     }
+     .titles{
+         color: white;
+         font-size: 30px;
+     }
+     .paragra{
+         color: white;
+     }
+     #section1 img{
+         height: 300px;
+     }
+     #tv-img{
+         padding-top: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #cel-info{
+         padding-bottom: 50px;
+         
+     }
+     #section2 img{
+         width: 400px;
+     } 
+     #img-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    #dev-img{
+        margin-bottom: 50px;
+        width: 300px;
+        margin: auto;
+    }
+    #ask-container h1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+        color: white;
+        font-weight: 500;
+    }
+    #list-container{
+       
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cont{
+    
+    width: 280px;
+    height: 35px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: border 0.5s linear;
+    }
+    .cont:hover{
+        border: 1px solid red;
+    }
+    #read{
+        margin-top: 20px;
+        font-size: 9px;
+        text-align: center;
+        color: white;
+    }
+    #section4{
+        height: 320px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    /* -------------------------------------------------------------------- */
+    
+    footer{
+        background-color: black;
+        height: 300px;
+    }
+    footer h4{
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+    }
+    footer ul{
+        
+        padding-left: 100px;
+        margin-top: 50px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    footer a {
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
+    footer h3{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media (min-width:1023px) {
+    header{
+    
+        background-image: url("assets/img/fundo.png");
+        
+        background-size: cover;
+        
+        width: 100%;
+        height: 530px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    #menu-container{
+    
+    display: flex;
+    width: 90%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    }
+    #menu-container img{
+        width: 100px;
+    }
+    #menu-container input{
+        background-color: red;
+        border: none;
+        color: white;
+       
+    }
+    
+
+    
+    #info-container{
+        text-align: center;
+        color: white;
+    }
+    #info-container h1{
+        padding-top: 20px;
+        font-size: 50px;
+        text-shadow: black 1px 1px 1px;
+        
+        width: 50%;
+        margin: auto;
+    }
+    #info-container h3{
+        font-size: 20px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #info-container p{
+        font-size: 15px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #email-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #email{
+        width: 400px;
+        border: none;
+        border-right: red;
+    }
+    #btn{
+        height: 30px;
+        background-color: red;
+        border: none;
+        color: white;
+    }
+     /* ------------------------------------------------------------------- */
+    
+     main{
+         background-color: black;
+     }
+    
+     .sessão{
+         
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+         border-bottom: 4px rgb(39, 39, 39) solid;
+        
+         
+     }
+     #cel-titulo{
+         width: 300px;
+         margin-left: 150px;
+     }
+     #cel-paragrafo{
+        margin-left: 150px;
+     }
+     .titles{
+         color: white;
+         font-size: 30px;
+         
+        width: 60%;
+     }
+     .paragra{
+         color: white;
+         
+         width: 60%;
+     }
+     #section1 img{
+         height: 300px;
+     }
+     
+     #tv-img{
+         padding-top: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #cel-info{
+         padding-bottom: 50px;
+         
+     }
+     #section2 img{
+         width: 400px;
+     } 
+     #img-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    #dev-img{
+        margin-bottom: 50px;
+        width: 300px;
+        margin: auto;
+    }
+    #ask-container h1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+        color: white;
+        font-weight: 500;
+    }
+    #list-container{
+       
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cont{
+    
+    width: 280px;
+    height: 35px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: border 0.5s linear;
+    }
+    .cont:hover{
+        border: 1px solid red;
+    }
+    #read{
+        margin-top: 20px;
+        font-size: 9px;
+        text-align: center;
+        color: white;
+    }
+    #section4{
+        height: 320px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    /* -------------------------------------------------------------------- */
+    
+    footer{
+        background-color: black;
+        height: 300px;
+    }
+    footer h4{
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+    }
+    footer ul{
+        
+        padding-left: 100px;
+        margin-top: 50px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    footer a {
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
+    footer h3{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media (min-width:1439px) {
+    header{
+    
+        background-image: url("assets/img/fundo.png");
+        
+        background-size: cover;
+        
+        width: 100%;
+        height: 630px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    #menu-container{
+    
+    display: flex;
+    width: 90%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    }
+    #menu-container img{
+        width: 150px;
+    }
+    #menu-container input{
+        background-color: red;
+        border: none;
+        color: white;
+       width: 100px;
+       height: 50px;
+       font-size: 20px;
+    }
+    
+
+    
+    #info-container{
+        text-align: center;
+        color: white;
+    }
+    #info-container h1{
+        padding-top: 20px;
+        font-size: 70px;
+        text-shadow: black 1px 1px 1px;
+        
+        width: 50%;
+        margin: auto;
+    }
+    #info-container h3{
+        font-size: 25px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #info-container p{
+        font-size: 18px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #email-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #email{
+        width: 600px;
+        border: none;
+        border-right: red;
+        height: 40px;
+    }
+    #btn{
+        height: 40px;
+        background-color: red;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+     /* ------------------------------------------------------------------- */
+    
+     main{
+         background-color: black;
+     }
+    
+     .sessão{
+         
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+         border-bottom: 4px rgb(39, 39, 39) solid;
+        
+         
+     }
+     #cel-titulo{
+         width: 300px;
+         margin-left: 150px;
+     }
+     #cel-paragrafo{
+        margin-left: 150px;
+     }
+     .titles{
+         color: white;
+         font-size: 40px;
+         
+        width: 60%;
+     }
+     .paragra{
+         color: white;
+         font-size: 20px;
+         width: 60%;
+     }
+     #section1 img{
+         height: 300px;
+     }
+     
+     #tv-img{
+         padding-top: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #cel-info{
+         padding-bottom: 50px;
+         
+     }
+     #section2 img{
+         width: 400px;
+     } 
+     #img-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    #dev-img{
+        margin-bottom: 50px;
+        width: 300px;
+        margin: auto;
+    }
+    #ask-container h1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+        color: white;
+        font-weight: 500;
+    }
+
+  
+
+    #list-container{
+       
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cont{
+    font-size: 20px;
+    width: 400px;
+    height: 45px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: border 0.5s linear;
+    }
+    .cont:hover{
+        border: 1px solid red;
+    }
+    #read{
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+    #section4{
+        height: 420px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    /* -------------------------------------------------------------------- */
+    
+    footer{
+        background-color: black;
+        height: 400px;
+    }
+    footer h4{
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    footer ul{
+        
+        padding-left: 100px;
+        margin-top: 50px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    footer a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    footer h3{
+        text-align: center;
+        margin-top: 25px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width:2559px) {
+    header{
+    
+        background-image: url("assets/img/fundo.png");
+        
+        background-size: cover;
+        
+        width: 100%;
+        height: 1100px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    #menu-container{
+    
+    display: flex;
+    width: 90%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    }
+    #menu-container img{
+        width: 300px;
+    }
+    #menu-container input{
+        background-color: red;
+        border: none;
+        color: white;
+       width: 300px;
+       height: 100px;
+       font-size: 40px;
+    }
+    
+
+    
+    #info-container{
+        text-align: center;
+        color: white;
+    }
+    #info-container h1{
+        padding-top: 20px;
+        font-size: 120px;
+        text-shadow: black 1px 1px 1px;
+        
+        width: 50%;
+        margin: auto;
+    }
+    #info-container h3{
+        font-size: 40px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #info-container p{
+        font-size: 25px;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    }
+    #email-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #email{
+        width: 1000px;
+        border: none;
+        border-right: red;
+        height: 70px;
+    }
+    #btn{
+        height: 70px;
+        width: 200px;
+        background-color: red;
+        border: none;
+        color: white;
+        font-size: 25px;
+    }
+    #email::placeholder{
+        font-size: 25px;
+    }
+     /* ------------------------------------------------------------------- */
+    
+     main{
+         background-color: black;
+     }
+    
+     .sessão{
+         
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+         border-bottom: 4px rgb(39, 39, 39) solid;
+        height: 500px;
+         
+     }
+     #cel-titulo{
+         width: 800px;
+         margin-left: 150px;
+     }
+     #cel-paragrafo{
+        margin-left: 150px;
+     }
+     .titles{
+         color: white;
+         font-size: 60px;
+         
+        width: 90%;
+     }
+     .paragra{
+         color: white;
+         font-size: 30px;
+         width: 60%;
+     }
+     #section1 img{
+         height: 500px;
+     }
+     
+     #tv-img{
+         padding-top: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #cel-info{
+         padding-bottom: 50px;
+         
+     }
+     #section2 img{
+         width: 500px;
+     } 
+     #img-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    #dev-img{
+        margin-bottom: 50px;
+        width: 500px;
+        margin: auto;
+    }
+    #devices-info{
+      
+        padding-left: 250px;
+    }
+    #ask-container h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 25px;
+        color: white;
+        font-weight: 500;
+    }
+
+  
+
+    #list-container{
+       
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cont{
+    font-size: 30px;
+    width: 600px;
+    height: 65px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: border 0.5s linear;
+    }
+    .cont:hover{
+        border: 1px solid red;
+    }
+    #read{
+        margin-top: 20px;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+    }
+    #section4{
+        height: 620px;
+        border-bottom: 4px rgb(39, 39, 39) solid;
+    }
+    /* -------------------------------------------------------------------- */
+    
+    footer{
+        background-color: black;
+        height: 400px;
+    }
+    footer h4{
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    footer ul{
+        
+        padding-left: 100px;
+        margin-top: 50px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    footer a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+    footer h3{
+        text-align: center;
+        margin-top: 25px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+}
